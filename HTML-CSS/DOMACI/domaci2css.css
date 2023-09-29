@@ -1,0 +1,72 @@
+.main {
+  border: 2px solid black;
+  border-radius: 30px;
+  height: 600px;
+  width: 400px;
+  margin: 30px 40px 0px;
+  background-color: rgb(134, 178, 191);
+  /* box-shadow: 0px 3px 12px 11px rgba(0, 0, 0, 0.2), */
+  /* 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  /* overflow: visible; defaultna vrednost */
+  /* overflow: hidden; sakriva sadrzaj koji prelazi parent element */
+  /* overflow: scroll; dodaje scrollbar u svakom slucaju*/
+  overflow: auto; /* dodaje scrollbar kada je neophodno*/
+  /* display: inline-block; */
+  display: inline-block;
+  box-shadow: 3px 3px 8px rgba(12, 12, 12, 0.401),
+    -3px -3px 8px rgba(12, 12, 12, 0.401);
+}
+.second {
+  /* visibility: hidden; sakriva element i prostor ostaje rezervisan za taj element*/
+  /* visibility: hidden; */
+  /* display: none; sakriva element i prostor moze biti iskoriscen narednim elementom */
+  display: none;
+}
+.main:nth-last-of-type(2) {
+  display: none;
+}
+
+/* Block level html elementi : */
+/* <h1>,<h2>,<h3>,<.h4..5..6 >*/
+/* <p> */
+/* <div>,<main>,<article>,<section>,<header>,<footer> */
+/* <ol>,<ul>,<li> */
+
+/* Inline html elementi */
+/*  <input>,<a>,<span>,<button>,<textarea>*/
+/* <img> tag je inline-block element - to su elementi koji  dozvoljavaju definisanje sirine i visine za razliku od inline elemenata. */
+/* <img> */
+.main:hover {
+  transform: scale(1.1);
+  background-color: rgb(189, 234, 248);
+  transition: 0.5s ease-in;
+  box-shadow: 0px 1px 5px 6px rgba(0, 0, 0, 0.2),
+    0 2px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.gt3 {
+  background-image: url("https://i.pinimg.com/736x/81/38/dc/8138dc5876f8d6a249ec898087d0bc5c.jpg");
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  height: 250px;
+  width: 400px;
+}
+.gt3:hover {
+  content: url(https://auto-drive.pt/wp-content/uploads/2022/06/Porsche-911-GT3-RS-005_r4peol.jpg);
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: capitalize;
+  text-align: center;
+}
+p {
+  text-indent: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}

@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <style>
+      /* h1 predstavlja CSS selektor, sto je zapravo pravilo pomocu kojeg pristupamo html elementu za koji zelimo da definisemo stilove */
+      body{background-color: #212020;}
+      h1 {
+        /* color predstavlja CSS property (svojstvo) */
+        color: bisque;
+      }
+      p {
+        /* font-size: 16px; standardna velicina slova je 16px */
+        font-size: 18px;
+        text-indent: 40px;
+        /* text-align: left; default vrednost */
+        text-align: right;
+        text-align: center; /* primenice se poslednje definisano svojstvo */
+        text-align: justify;
+        text-align-last: right;
+        /* text-transform: uppercase;  */
+        /* text-transform: capitalize; */
+        text-transform: lowercase;
+        color: antiquewhite;
+      }
+      ul {
+        list-style-position: inside;
+      }
+      /* pozivanje class-e (tacka.) i pozivanje id-a (tarabica #) */
+      .prvi {
+        background-color: rgb(235, 229, 229);
+        
+        width: 400px;
+        height: 400px;
+      }
+      #naslov {
+        color: #cdcbcb;
+      }
+      /* id ima prioritet u odnosu na klasu kada se radi o primeni stilova  */
+      /* obicno cemo koristiti id ako zelimo da definisemo jedinstven element */
+      .naslov {
+        color: rgb(198, 198, 54);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="prvi">
+      <h1>Danas radimo CSS (CasscadingStyle Sheets)</h1>
+      <!-- Jezik za definisanje stilova na nasoj stranici -->
+      <h2 id="naslov" class="naslov">
+        CSS mozemo primeniti na nekoliko nacina
+      </h2>
+      <ul>
+        <li style="color: darkgreen">Inline stilovi</li>
+        <li>stilovi definisani unutar head taga</li>
+        <li>eksterni stilovi</li>
+      </ul>
+    </div>
+    <div>
+      <h1>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse optio hic
+        veniam, dolores nisi deserunt perferendis repellat modi mollitia, nihil
+        totam debitis, magni reiciendis. Possimus inventore sapiente porro ad
+        odio.
+      </h1>
+      <p style="color: whitesmoke;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, corrupti
+        maxime exercitationem fugit eaque in repudiandae quasi ipsa, magni
+        impedit libero commodi deleniti enim sunt tempore. Aut cumque alias
+        dicta asperiores dolorum debitis, nemo necessitatibus. Lorem ipsum,
+        dolor sit amet consectetur adipisicing elit. Ducimus delectus aliquam
+        aperiam, blanditiis corporis excepturi! Ea quos tenetur quas nulla
+        itaque deleniti saepe. Consequatur, cum in! Dolorum iure quia et
+        excepturi, fugiat nemo dolor dignissimos sequi iste, explicabo
+        consequuntur nisi quaerat delectus, amet molestias officiis corporis
+        repudiandae eum placeat quis?
+      </p>
+    </div>
+  </body>
+</html>

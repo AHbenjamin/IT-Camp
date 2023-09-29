@@ -1,0 +1,32 @@
+.main {
+  color: beige;
+  background-color: rgb(2, 79, 12);
+  width: 500px;
+  height: 500px;
+  border: 5px solid black;
+  /* margin: 50px; margina u odnosu na sve cetri strane */
+
+  margin-top: 30px; /* margina u odnosu na gornji element*/
+  margin-bottom: 10px; /*margina u odnosu na donji element   */
+  margin-right: 30px; /*margina u odnosu na desnu stranu  */
+  margin-left: 20px; /*margina u odnosu na levu stranu  */
+  margin: 50px 40px 30px 20px; /* redosled --> top-right-bottom-left */
+  margin: 50px 20px; /* top & bottom right & left*/
+  margin: 50px 20px 35px; /*top  right & left */
+  margin: 30px auto; /* auto- podjednoako udaljen element od leve i desne strane*/
+
+  padding: 10px 25px;
+  /* border-radius: 10px; */
+  /* border-radius: 10px 5px 15px 0px; */
+  border-bottom-left-radius: 10px;
+}
+
+.second {
+  color: rgb(194, 194, 149);
+  background-color: #011353;
+  /* width: 500px */
+  /* height: 500px; */
+}
+.main p {
+  text-align: justify;
+}
