@@ -1,0 +1,28 @@
+.box {
+  width: 150px;
+  height: 150px;
+  /* float: left; */
+  float: right;
+}
+.box1 {
+  background-color: rgb(14, 93, 7);
+}
+.box2 {
+  background-color: rgb(239, 166, 71);
+}
+.box3 {
+  background-color: rgb(85, 247, 76);
+}
+.box4 {
+  background-color: rgb(7, 232, 180);
+  /* clear: both; */
+}
+.box5 {
+  background-color: rgb(80, 8, 250);
+}
+.box6 {
+  background-color: rgb(248, 8, 128);
+}
+.box7 {
+  background-color: rgb(188, 236, 12);
+}
