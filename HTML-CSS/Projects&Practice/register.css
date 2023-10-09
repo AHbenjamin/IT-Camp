@@ -37,7 +37,6 @@ body {
 .wrapper .input-box {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .input-box .input-field {
