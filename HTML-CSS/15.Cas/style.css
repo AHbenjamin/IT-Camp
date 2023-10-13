@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: 20px;
+  padding-top: 32px;
+  background-color: cornflowerblue;
+  height: 250vh;
+  position: relative;
+}
+
+.child1 {
+  background-color: aqua;
+  height: 50px;
+  /* position: static;  defaultna vrednost za position*/
+  /* position: relative; */
+  /* top: 20px; */
+  /* left: 10px; */
+  position: absolute;
+  left: 100px;
+  bottom: -50px; /* Dozvoljene su negativne vrednosti */
+}
+.child2 {
+  background-color: aquamarine;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 5;
+}
+.child3 {
+  background-color: cadetblue;
+  height: 50px;
+  position: sticky;
+  top: 0;
+}
+.child4 {
+  background-color: turquoise;
+  height: 50px;
+}
