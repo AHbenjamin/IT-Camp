@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header h1 {
+  background-color: aqua;
+  text-align: center;
+}
+
+.container {
+  border: 0.5rem solid green;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
+.main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+.box {
+  background-color: aqua;
+  width: 20rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  width: 15rem;
+  height: 15rem;
+}
+/* .first {
+  background-image: url(https://thumbs.dreamstime.com/z/cartoon-sun-sunglasses-9324033.jpg);
+  background-size: cover;
+}
+
+.box h1 {
+  text-align: center;
+}
+*/
+.box p {
+  text-align: center;
+}
+
+.one h3 {
+  background-color: blue;
+}
