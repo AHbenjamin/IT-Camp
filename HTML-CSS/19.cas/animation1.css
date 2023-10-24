@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-color: cornflowerblue;
+}
+
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(200, 217, 249);
+  transition: all 1s, background-color 5s;
+  transition-property: ;
+}
+
+.parent:hover .child {
+  /*transform: translate(100%, 100%); transformacija po X i Y osi */
+  transform: translate(100%);
+  /* transform: translateY(100%); - transformacija po Y osi*/
+  /* transform: translateX(100%); - transformacija po X osi*/
+  background-color: darkcyan;
+}
