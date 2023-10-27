@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-color: cornflowerblue;
+}
+
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(200, 217, 249);
+  transition: all 1s, background-color 5s;
+  transition-property: ;
+}
+
+.parent:hover .child {
+  /*transform: translate(100%, 100%); transformacija po X i Y osi */
+  /* transform: translateY(100%); - transformacija po Y osi*/
+  /* transform: translateX(100%); - transformacija po X osi*/
+  /* background-color: darkcyan; */
+  animation: left-to-right 3s ease-in-out 0.1s forwards infinite alternate;
+}
+
+@keyframes left-to-right {
+  20% {
+    transform: translate(100%, 0);
+    background-color: blueviolet;
+  }
+  40% {
+    transform: translate(50%, 50%);
+    background-color: rgb(178, 25, 153);
+  }
+  60% {
+    transform: translate(100%, 100%);
+    background-color: rgb(109, 13, 234);
+  }
+  80% {
+    transform: translate(0%, 100%);
+    background-color: rgb(178, 222, 3);
+  }
+  100% {
+    transform: translate(0, 0%);
+    background-color: rgb(109, 13, 234);
+  }
+}
