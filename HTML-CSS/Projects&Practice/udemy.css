@@ -241,3 +241,24 @@ img {
 .main:hover .ball-two {
   transform: translateX(-92.8em);
 }
+
+@media (max-width: 500px) {
+  .nav {
+    height: 8vh;
+  }
+  .containers {
+    margin: auto;
+    margin-bottom: 15px;
+    width: 95%;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box {
+    width: 90%;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+  }
+}
