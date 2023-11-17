@@ -197,17 +197,16 @@ h3 {
   margin-top: 0;
 
   display: grid;
-  /* margin-left: -40px; */
+  margin-left: -40px;
   /* position: absolute; */
   justify-content: center;
   align-items: center;
   width: 100%;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 500px));
+  grid-template-columns: repeat(auto-fill, minmax(501px, 501px));
 }
 
 .grid img {
-  /* width: 550px; */
-  width: 500px;
+  width: 550px;
   height: 500px;
   object-fit: cover;
   object-position: cover;
