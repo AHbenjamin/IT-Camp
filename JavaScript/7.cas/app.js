@@ -46,3 +46,16 @@ if (brojGodinaa < 0) {
 }
 
 //resavaj prvo errore pa ostalo//
+
+// 1.
+const broj = Number(prompt("Unesite neki broj"));
+
+if (isNaN(broj)) {
+  console.log("niste uneli broj");
+} else if (broj < 0) {
+  console.log("broj je negativan");
+} else if (broj === 0) {
+  console.log("broj je jednak nuli");
+} else {
+  console.log("broj je pozitivan");
+}
