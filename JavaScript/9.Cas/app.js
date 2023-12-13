@@ -32,6 +32,7 @@ for (let i = 1; i <= 10; i++) {
 for (let i = 1; i <= 10; i++) {
   if (i % 7 === 0) {
     break;
+  } else {
+    console.log(i);
   }
-  console.log(i);
 }
