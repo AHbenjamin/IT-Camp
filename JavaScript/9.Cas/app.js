@@ -29,8 +29,8 @@ for (let i = 1; i <= 10; i++) {
 
 // break izvrsava prekidanje petlje. Ako zelimo da se u nekom momentu prestane izvrsavanje onda koristimo break.
 
-for (let i = 1; i <= 10; i++) {
-  if (i % 7 === 0) {
+for (let i = 1; i <= 50; i++) {
+  if (i % 10 === 0) {
     break;
   } else {
     console.log(i);
