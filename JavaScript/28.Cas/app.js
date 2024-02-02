@@ -59,4 +59,16 @@ const obj2={key1:'This is a value 1',key2:false, key3: 12,key4: null, key5: NaN,
 // const obj2Clone2= structuredClone(obj2); // ne moze da klonira funkcije
 // console.log(obj2,obj2Clone2)
 
-// 
+// transforming objects into arrays
+// keys are strings by default
+
+const obj2ArrayKeys= Object.keys(obj2)
+const obj2ArrayValues= Object.values(obj2)
+
+console.log(obj2ArrayKeys,obj2ArrayValues)
+
+// extra accessing values in objects
+obj2["key1"]
+const abc='key1'
+
+obj2[abc]
