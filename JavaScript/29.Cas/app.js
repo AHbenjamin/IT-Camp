@@ -101,7 +101,7 @@ function isStringInMatrix(matrix) {
     return false;
   }
   
-  console.log(isStringInMatrix(mulitNiz));
+  console.log(isStringInMatrix(multiNiz));
 
 const users = [
     { name: "Suad", surname: "Suljovic" },
