@@ -115,3 +115,8 @@ const prosjek = grades.reduce((sum, ocjena, index, array) => {
 
 console.log("Prosjek ocjena je:", prosjek);
 
+
+// 
+
+
+
