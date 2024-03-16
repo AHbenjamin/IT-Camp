@@ -1,0 +1,17 @@
+{
+  "name": "42.cas",
+  "version": "1.0.0",
+  "description": "projekat",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "random": "console.log('hello')"
+  },
+  "author": "benjamin",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
